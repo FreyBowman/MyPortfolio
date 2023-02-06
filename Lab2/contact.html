@@ -13,12 +13,33 @@
             margin: 0;
         }
 
+        .mapouter {
+            margin: auto;
+            /*position:relative;*/
+            text-align:right;
+            height:500px;
+            width:600px;
+        }
+
+        .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:500px;
+            width:600px;
+        }
+
         .header {
             padding-left: 25px;
             padding-right: 25px;
             padding-top: 30px;
             padding-bottom: 30px;
             font-size: 24px;
+        }
+
+        .bdy {
+            padding: 50px;
+            font-size: 20px;
+            text-align: left;
         }
 
         .footer{
@@ -89,7 +110,40 @@
         </table>
     </div>
     <div class="bg">
+        <table style="margin: auto;">
+            <tr>
+                <td class="bdy">
+                    <b style="font-size: 24px;">
+                        CONTACT ME
+                    </b>
+                    <p>
+                        Email: Totallyrealemail@notfake.com
+                    </p>
+                    <p>
+                        Phone #: (123)-456-7890
+                    </p>
+                    <p>
+                        Address: 875 Perimeter Dr, Moscow, ID 83844
+                    </p>
+                </td>
+                <td>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=university%20of%20idaho&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                            <a href="https://123movies-to.org">
+                                123 movies
+                            </a>
+                            <br>
+                                <a href="https://www.embedgooglemap.net">
 
+                                </a>
+                            </br>
+                        </div>
+                    </td>
+                </tr>
+            </div>
+        </table>
     </div>
     <div style="background-color: cornflowerblue;">
         <table style="margin-left: auto; margin-right: auto;">
