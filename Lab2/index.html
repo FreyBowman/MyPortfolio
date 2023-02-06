@@ -13,12 +13,27 @@
             margin: 0;
         }
 
-        td {
+        .intro {
+            display: block;
+            padding-top: 5px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 5px;
+            font-size: 20px;
+            width: 50%;
+        }
+
+        .header {
             padding-left: 25px;
             padding-right: 25px;
             padding-top: 30px;
             padding-bottom: 30px;
             font-size: 24px;
+        }
+
+        .footer{
+            padding: 15px;
+            font-size: 15px;
         }
 
         .bg {
@@ -31,6 +46,7 @@
 
         .center {
             display: block;
+
             margin-left: auto;
             margin-right: auto;
             width: 50%;
@@ -42,43 +58,45 @@
     <div style="background-color:cornflowerblue" ;>
         <table style="margin-left: auto; margin-right:auto;">
             <tr>
-                <td>
+                <td class="header">
 
                 </td>
-                <td style="background-color:yellow;">
+                <td style="background-color:yellow;" class="header">
                     <nav>
                         <a href="./index.html" target="_self">
                             Home
                         </a>
                     </nav>
                 </td>
-                <td>
+                <td class="header">
                     <nav>
                         <a href="./about.html" target="_self">
                             About
                         </a>
                     </nav>
                 </td>
-                <td>
+                <td class="header">
                     <nav>
                         <a href="./portfolio.html" target="_self">
                             Portfolio
                         </a>
                     </nav>
                 </td>
-                <td>
+                <td class="header">
                     <nav>
                         <a href="./contact.html" target="_self">
                             Contact
                         </a>
                     </nav>
                 </td>
-                <td>
+                <td class="header">
                     <nav>
                         <a href="./signin.html" target="_self">
                             Sign In
                         </a>
                     </nav>
+                </td>
+                <td class="header">
                     <nav>
                         <a href="./signup.html" target="_self">
                             Sign Up
@@ -89,7 +107,45 @@
         </table>
     </div>
     <div class="bg">
-        <img src="Pictures/MyPic.jpg" alt="Man smiling" class="center" style="height:250px; width:250px;">
+        <img src="Pictures/MyPic.jpg" alt="Man smiling" class="center" style="height:250px; width:250px; border-radius: 50%;">
+
+        <p class="intro">
+            Hello, my name is Tryston Jimenez and this is my Portfolio. I created this portfolio for my
+            DataBase Systems class. The goal was to create a website that has multiple web pages, which
+            includes a sign-in page and a sign-up page. Neither the sign-in page or the sign-up page work
+            properly, however I created both of those pages with templates that properly reseble a sign-in
+            and sign-up page.
+        </p>
+        <p class="intro">
+
+        </p>
+    </div>
+    <div style="background-color: cornflowerblue;">
+        <table style="margin-left: auto; margin-right: auto;">
+            <tr>
+                <td class="footer">
+                    <nav>
+                        <a>
+                            Terms and Conditions
+                        </a>
+                    </nav>
+                </td>
+                <td class="footer">
+                    <nav>
+                        <a>
+                            Privacy Policy
+                        </a>
+                    </nav>
+                </td>
+                <td class="footer">
+                    <nav>
+                        <a>
+                            Cookie Policy
+                        </a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
     </div>
 </body>
 
